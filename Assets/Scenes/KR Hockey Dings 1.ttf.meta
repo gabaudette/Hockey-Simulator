@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2966cdcb7abf4bd448445af790b66924
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - KR Hockey Dings
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c8559e0719a9a3442b8c6c2e6299e27a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

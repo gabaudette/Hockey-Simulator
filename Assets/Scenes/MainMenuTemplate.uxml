@@ -6,7 +6,12 @@
                 <ui:VisualElement name="logo" style="width: 200px; height: 100%; background-image: url(&apos;/Assets/Scenes/1024px-No-logo.svg.png&apos;);" />
             </ui:VisualElement>
             <ui:VisualElement name="main-menu-list-wrapper" style="height: 100%; padding-left: 16px; padding-top: 32px; align-items: flex-start; -unity-font: none;">
-                <ui:Button text="Play" display-tooltip-when-elided="true" name="play-button" class="main-menu-button" />
+                <ui:VisualElement name="menu-button-wrapper" style="flex-direction: column; flex-basis: initial;">
+                    <ui:Button text="Play" display-tooltip-when-elided="true" name="play-button" class="main-menu-button" style="padding-left: 0;" />
+                    <ui:VisualElement name="mode-selection-context-menu" style="width: 200px; height: 100px; display: flex; visibility: hidden;">
+                        <ui:Button text="Tournament" display-tooltip-when-elided="true" name="tournament-mode-button" class="main-submenu-button" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="main-menu-image-wrapper" style="flex-basis: 40%; -unity-background-image-tint-color: rgb(236, 95, 202); background-color: rgb(233, 0, 221);" />

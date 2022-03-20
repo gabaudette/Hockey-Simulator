@@ -1,6 +1,26 @@
+.main-menu-button:hover {
+    flex-direction: column;
+    width: 125px;
+    align-items: stretch;
+    -unity-text-align: middle-left;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    -unity-font: url('/Assets/Scenes/BEER.TTF');
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-font-definition: resource('');
+}
+
 .main-menu-button {
     flex-direction: column;
-    width: 300px;
+    width: 125px;
     align-items: stretch;
     -unity-text-align: middle-left;
     color: rgb(0, 0, 0);
@@ -18,13 +38,33 @@
     -unity-font-definition: resource('');
 }
 
-.main-menu-button:hover {
+.main-submenu-button {
     flex-direction: column;
-    width: 300px;
+    width: 125px;
     align-items: stretch;
     -unity-text-align: middle-left;
     color: rgb(0, 0, 0);
-    font-size: 28px;
+    font-size: 16px;
+    -unity-font: url('/Assets/Scenes/BEER.TTF');
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-font-definition: resource('');
+}
+
+.main-submenu-button:hover {
+    flex-direction: column;
+    width: 125px;
+    align-items: stretch;
+    -unity-text-align: middle-left;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
     -unity-font: url('/Assets/Scenes/BEER.TTF');
     background-color: rgba(188, 188, 188, 0);
     border-left-color: rgba(149, 149, 149, 0);

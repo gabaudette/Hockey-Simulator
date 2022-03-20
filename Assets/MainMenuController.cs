@@ -1,7 +1,5 @@
-using System;
 using UnityEngine;
 using UnityEngine.UIElements;
-
 
 // Todo @GA create Abstract controller
 public class MainMenuController : MonoBehaviour

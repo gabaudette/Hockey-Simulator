@@ -6,6 +6,8 @@ public class MainMenuController : MonoBehaviour
 {
     private VisualElement _root;
 
+    // Coucou
+
     private void Awake()
     {
         _root = GetComponent<UIDocument>().rootVisualElement;
